@@ -6,3 +6,14 @@ function suma(n) {
 
 suma(5);
 
+
+// suma 1 a 4:
+function sum_total(val) {
+  if(val === 0) {
+    return 0;
+  } else {
+    return val + sum_total(val-1);
+  }
+}
+
+sum_total(4);
