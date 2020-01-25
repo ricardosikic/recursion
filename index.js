@@ -7,7 +7,8 @@ function suma(n) {
 suma(5);
 
 
-// suma 1 a 4:
+// suma 1 a 4 con recursion:
+
 function sum_total(val) {
   if(val === 0) {
     return 0;
@@ -17,3 +18,22 @@ function sum_total(val) {
 }
 
 sum_total(4);
+
+
+// ejercicio: sin utilizar recursion suma del 1 al 4 para una suma total de 10.
+
+function suma(a) {
+  let n = 0;
+  for(i = 0; i <= a; i ++) {
+    n = i + n;
+  }
+  return 'el valor es ' + n;
+}
+
+suma(4);
+
+
+
+
+
+
